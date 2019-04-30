@@ -1,0 +1,52 @@
+PODS:
+  - Differentiator (3.1.0)
+  - Kingfisher (4.10.1)
+  - LRLoopScrollView (0.0.1):
+    - Kingfisher (~> 4.0)
+    - ReactorKit
+    - RxCocoa (~> 4.0)
+    - RxDataSources
+    - RxSwift (~> 4.0)
+  - ReactorKit (1.2.1):
+    - RxSwift (>= 4.0.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 4.0)
+  - LRLoopScrollView (from `~/Desktop/LRLoopScrollView/`)
+  - ReactorKit
+  - RxCocoa (~> 4.0)
+  - RxDataSources
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Differentiator
+    - Kingfisher
+    - ReactorKit
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+
+EXTERNAL SOURCES:
+  LRLoopScrollView:
+    :path: "~/Desktop/LRLoopScrollView/"
+
+SPEC CHECKSUMS:
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  LRLoopScrollView: a6d4768e4bb7eccfafe531f993f10c77767ca1bb
+  ReactorKit: 8be57f0527ad1ac2963cd5c338274a46a01e57a3
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+
+PODFILE CHECKSUM: 7b73dd1367a54a9127f8d25ba3e270e4d4b34434
+
+COCOAPODS: 1.6.1

@@ -5,13 +5,13 @@ target 'LRLoopScrollViewTest' do
   
   use_frameworks!
 
-  pod 'RxSwift',    '~> 4.0'
-  pod 'RxCocoa',    '~> 4.0'
-  pod 'RxDataSources'
-  pod 'ReactorKit'
-  pod 'Kingfisher', '~> 4.0'
-  pod 'LRLoopScrollView', :path => '~/Desktop/LRLoopScrollView/'
-
+  #  pod 'RxSwift',    '~> 4.0'
+  #  pod 'RxCocoa',    '~> 4.0'
+  #  pod 'RxDataSources'
+  #  pod 'ReactorKit'
+  # pod 'Kingfisher', '~> 4.0'
+  
+ pod 'LRLoopScrollView', :git => 'https://github.com/peiei/LoopScrollView.git'
 
 
 end

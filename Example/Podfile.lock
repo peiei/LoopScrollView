@@ -18,12 +18,7 @@ PODS:
   - RxSwift (4.5.0)
 
 DEPENDENCIES:
-  - Kingfisher (~> 4.0)
-  - LRLoopScrollView (from `~/Desktop/LRLoopScrollView/`)
-  - ReactorKit
-  - RxCocoa (~> 4.0)
-  - RxDataSources
-  - RxSwift (~> 4.0)
+  - LRLoopScrollView (from `https://github.com/peiei/LoopScrollView.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -36,7 +31,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   LRLoopScrollView:
-    :path: "~/Desktop/LRLoopScrollView/"
+    :git: https://github.com/peiei/LoopScrollView.git
+
+CHECKOUT OPTIONS:
+  LRLoopScrollView:
+    :commit: d65a6824f9d09eea01120f4aa82025c406f852a5
+    :git: https://github.com/peiei/LoopScrollView.git
 
 SPEC CHECKSUMS:
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
@@ -47,6 +47,6 @@ SPEC CHECKSUMS:
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
-PODFILE CHECKSUM: 7b73dd1367a54a9127f8d25ba3e270e4d4b34434
+PODFILE CHECKSUM: c6d9b58c14df309274819c4207822bf03ad54c47
 
 COCOAPODS: 1.6.1

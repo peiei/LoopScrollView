@@ -139,7 +139,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'RxSwift',    '~> 4.0'
   spec.dependency 'RxCocoa',    '~> 4.0'
   spec.dependency 'RxDataSources'
-  spec.dependency 'ReactorKit'
+  spec.dependency 'ReactorKit', '= 1.2.1'
   spec.dependency 'Kingfisher', '~> 4.0'
 
 end

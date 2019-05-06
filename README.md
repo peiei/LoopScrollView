@@ -1,4 +1,5 @@
 # LoopScrollView
+自动循环滚动的collectionview
 
 ## Example  先 pod install 再打开工程
 
